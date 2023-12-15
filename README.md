@@ -1,3 +1,5 @@
+![image](https://github.com/MateusSartorio/dojo-helpdesk/assets/69646100/2599d0dd-c682-4b8e-8641-1739c9987aba)
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
