@@ -3,23 +3,37 @@
     {
       "id": "1",
       "title": "Fix the footer links please",
-      "body": "Lorem ipsum Triforce sit amet, Linkus Hyruleus tempus Ganondorf. Nunc ocarina sagittis quis Majoras Mask. Nulla in metus arcu. Suspendisse potenti. In vel mauris varius, consectetur Zora ipsum eget, Master Sword porttitor urna. Fusce elementum urna elit, eget eleifend velit consectetur eget. Integer vel lobortis ipsum, vitae auctor Ocarina of Time. Donec sed urna dapibus, interdum magna a, eleifend magna. Curabitur tincidunt enim a neque volutpat. Phasellus auctor magna vel nunc pretium, ut volutpat justo tristique. Pellentesque cursus convallis mauris, in tempus enim tincidunt vitae.",
+      "body": "The task involves fixing issues in the footer links of a web page or document. This includes identifying and correcting broken links, ensuring accuracy, and aligning with the overall navigation structure. Attention should be given to consistent formatting, responsive design, and adherence to accessibility standards. Collaboration with the design team may be needed, and updating content for relevance is essential. This aims to enhance the functionality and user-friendliness of the footer links, contributing to an overall polished user experience.",
       "priority": "low",
-      "user_email": "mario@netninja.dev"
+      "user_email": "frontenddev@dojo.dev"
     },
     {
       "id": "2",
       "title": "Add in a new stylesheet",
-      "body": "Lorem ipsum Triforce sit amet, Linkus Hyruleus tempus Ganondorf. Nunc ocarina sagittis quis Majoras Mask. Nulla in metus arcu. Suspendisse potenti. In vel mauris varius, consectetur Zora ipsum eget, Master Sword porttitor urna. Fusce elementum urna elit, eget eleifend velit consectetur eget. Integer vel lobortis ipsum, vitae auctor Ocarina of Time. Donec sed urna dapibus, interdum magna a, eleifend magna. Curabitur tincidunt enim a neque volutpat. Phasellus auctor magna vel nunc pretium, ut volutpat justo tristique. Pellentesque cursus convallis mauris, in tempus enim tincidunt vitae.",
+      "body": "The task involves fixing issues in the footer links of a web page or document. This includes identifying and correcting broken links, ensuring accuracy, and aligning with the overall navigation structure. Attention should be given to consistent formatting, responsive design, and adherence to accessibility standards. Collaboration with the design team may be needed, and updating content for relevance is essential. This aims to enhance the functionality and user-friendliness of the footer links, contributing to an overall polished user experience.",
       "priority": "medium",
-      "user_email": "mario@netninja.dev"
+      "user_email": "frontenddev@dojo.dev"
     },
     {
       "id": "3",
-      "title": "Fix the footer links",
-      "body": "Lorem ipsum Triforce sit amet, Linkus Hyruleus tempus Ganondorf. Nunc ocarina sagittis quis Majoras Mask. Nulla in metus arcu. Suspendisse potenti. In vel mauris varius, consectetur Zora ipsum eget, Master Sword porttitor urna. Fusce elementum urna elit, eget eleifend velit consectetur eget. Integer vel lobortis ipsum, vitae auctor Ocarina of Time. Donec sed urna dapibus, interdum magna a, eleifend magna. Curabitur tincidunt enim a neque volutpat. Phasellus auctor magna vel nunc pretium, ut volutpat justo tristique. Pellentesque cursus convallis mauris, in tempus enim tincidunt vitae.",
+      "title": "Implement social media integration",
+      "body": "This task involves seamlessly incorporating social media functionality into the existing web page or document. Add buttons, sharing options, or feeds in a visually cohesive manner, ensuring responsiveness across devices. Collaborate with the development and design teams for a smooth integration that enhances the user experience. Pay attention to privacy and security considerations. Successful completion will result in an enriched interface that promotes increased engagement and connectivity through social media features.",
       "priority": "high",
-      "user_email": "peach@netninja.dev"
+      "user_email": "supercooldev@dojo.dev"
+    },
+    {
+      "title": "Find out the problem with login form",
+      "body": "There seems to be some sort of problem with the login form.",
+      "priority": "high",
+      "user_email": "mario@dojo.dev",
+      "id": "bCTXCQt"
+    },
+    {
+      "title": "Fiz margin in the home screen",
+      "body": "The home screen's margin is broken. Someone from front end should fix it.",
+      "priority": "medium",
+      "user_email": "mario@dojo.dev",
+      "id": "56fy5To"
     }
   ]
 }
