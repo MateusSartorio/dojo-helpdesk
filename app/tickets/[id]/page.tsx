@@ -42,8 +42,6 @@ export default async function TicketDetails({ params }) {
           {ticket.priority} priority
         </div>
       </div>
-      asdfadf
-      <Link href="/tickets/create" />
     </main>
   );
 }
