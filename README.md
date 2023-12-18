@@ -4,6 +4,8 @@ A minimalist app made to manage tasks (tickets) and publish anouncements of a co
 
 ![image](https://github.com/MateusSartorio/dojo-helpdesk/assets/69646100/2599d0dd-c682-4b8e-8641-1739c9987aba)
 
+![image](https://github.com/MateusSartorio/dojo-helpdesk/assets/69646100/dc44b4ac-ab87-445c-8e1b-5352db32bfab)
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## How to setup app locally
