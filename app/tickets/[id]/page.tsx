@@ -1,32 +1,33 @@
-import { notFound } from 'next/navigation'
+import Link from "next/link";
+import { notFound } from "next/navigation";
 
-export const dynamicParams = true
+export const dynamicParams = true;
 
 export async function generateStaticParams() {
-  const response = await fetch(`http://localhost:4000/tickets`)
-  const tickets = await response.json()
+  const response = await fetch(`http://localhost:4000/tickets`);
+  const tickets = await response.json();
 
-  return tickets.map(ticket => ({ id: ticket.id }))
+  return tickets.map((ticket) => ({ id: ticket.id }));
 }
 
 async function getTicket(id) {
   const response = await fetch(`http://localhost:4000/tickets/${id}`, {
     next: {
       revalidate: 60,
-    }
-  })
+    },
+  });
 
-  if(!response.ok) {
-    notFound()
+  if (!response.ok) {
+    notFound();
   }
 
-  return response.json()
+  return response.json();
 }
 
 export default async function TicketDetails({ params }) {
-  const { id } = params
-  
-  const ticket = await getTicket(id)
+  const { id } = params;
+
+  const ticket = await getTicket(id);
 
   return (
     <main>
@@ -42,5 +43,5 @@ export default async function TicketDetails({ params }) {
         </div>
       </div>
     </main>
-  )
+  );
 }
