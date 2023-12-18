@@ -1,6 +1,6 @@
 #Dojo Helpdesk
 
-A minimalist app made to manage tickets (todos) inside a company. A running build of the web app is hosted in [here](https://dojo-helpdesk.netlify.app).
+A minimalist app made to manage tasks (tickets) and publish anouncements of a company. A running build of the web app is hosted in [here](https://dojo-helpdesk.netlify.app).
 
 ![image](https://github.com/MateusSartorio/dojo-helpdesk/assets/69646100/2599d0dd-c682-4b8e-8641-1739c9987aba)
 
