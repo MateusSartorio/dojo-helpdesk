@@ -28,4 +28,13 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 You can start editing the app by modifying the files inside `app/` directory. The page auto-updates as you edit the file.
 
+The application backend is hosted in [here](https://dojo-helpdesk-backend.onrender.com). If you prefer to run the backend locally, run ```npm start``` inside the ```dojo-helpdesk-backend``` directory, as follows:
+
+```bash
+cd dojo-helpdesk-backend
+npm start
+```
+
+After that, change ```https://dojo-helpdesk-backend.onrender.com``` on the ```fetch``` calls to ```http://localhost:<port>```, where ```<port>``` is the port your json-server is listening on.
+
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
