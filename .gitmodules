@@ -1,3 +1,3 @@
 [submodule "dojo-helpdesk-backend"]
 	path = dojo-helpdesk-backend
-	url = git@github.com:MateusSartorio/dojo-helpdesk-backend.git
+	url = https://github.com/MateusSartorio/dojo-helpdesk-backend.git
