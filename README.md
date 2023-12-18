@@ -35,6 +35,6 @@ cd dojo-helpdesk-backend
 npm start
 ```
 
-After that, change ```https://dojo-helpdesk-backend.onrender.com``` on the ```fetch``` calls to ```http://localhost:<port>```, where ```<port>``` is the port your json-server is listening on.
+After that, change ```https://dojo-helpdesk-backend.onrender.com``` on the ```fetch``` calls to ```http://localhost:<port>```, where ```<port>``` is the port where your json-server is listening on.
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
