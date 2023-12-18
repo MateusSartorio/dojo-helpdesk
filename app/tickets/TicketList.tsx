@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 async function getTickets() {
-  const response = await fetch("http://localhost:4000/tickets", {
+  const response = await fetch("https://dojo-helpdesk-backend.onrender.com/tickets", {
     next: {
       revalidate: 0,
     },
@@ -20,15 +20,11 @@ export default async function TicketList() {
           <Link href={`/tickets/${ticket.id}`}>
             <h3>{ticket.title}</h3>
             <p>{ticket.body.slice(0, 200)}...</p>
-            <div className={`pill ${ticket.priority}`}>
-              {ticket.priority} priority
-            </div>
+            <div className={`pill ${ticket.priority}`}>{ticket.priority} priority</div>
           </Link>
         </div>
       ))}
-      {tickets.length === 0 && (
-        <p className="text-center">There are no open tickets, yay!</p>
-      )}
+      {tickets.length === 0 && <p className="text-center">There are no open tickets, yay!</p>}
     </>
   );
 }

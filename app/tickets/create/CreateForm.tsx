@@ -22,7 +22,7 @@ export default function CreateForm() {
       user_email: "mario@dojo.dev",
     };
 
-    const response = await fetch("http://localhost:4000/tickets", {
+    const response = await fetch("https://dojo-helpdesk-backend.onrender.com/tickets", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -40,30 +40,15 @@ export default function CreateForm() {
     <form className="w-1/2" onSubmit={handleSubmit}>
       <label>
         <span>Title:</span>
-        <input
-          required
-          type="text"
-          name="title"
-          onChange={(e) => setTitle(e.target.value)}
-          value={title}
-        />
+        <input required type="text" name="title" onChange={(e) => setTitle(e.target.value)} value={title} />
       </label>
       <label>
         <span>Body:</span>
-        <textarea
-          required
-          name="body"
-          onChange={(e) => setBody(e.target.value)}
-          value={body}
-        />
+        <textarea required name="body" onChange={(e) => setBody(e.target.value)} value={body} />
       </label>
       <label>
         <span>Priority:</span>
-        <select
-          name="priority"
-          value={priority}
-          onChange={(e) => setPriority(e.target.value)}
-        >
+        <select name="priority" value={priority} onChange={(e) => setPriority(e.target.value)}>
           <option value="low">Low Priority</option>
           <option value="medium">Medium Priority</option>
           <option value="high">High Priority</option>
