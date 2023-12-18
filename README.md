@@ -1,4 +1,4 @@
-#Dojo Helpdesk
+# Dojo Helpdesk
 
 A minimalist app made to manage tasks (tickets) and publish anouncements of a company. A running build of the web app is hosted in [here](https://dojo-helpdesk.netlify.app).
 
